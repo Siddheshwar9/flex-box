@@ -1,5 +1,13 @@
 body{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#wrapper{
+    border: none;
+    text-align: center;
 }
 div{
     height: 100px;
@@ -7,6 +15,7 @@ div{
     display: inline-block;
     border: 2px black solid;
 }
+
 #container{
     height: 600px;
     width: 700px;
